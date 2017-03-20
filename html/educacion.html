@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>CurriculumVitae</title>
+  </head>
+  <body>
+    <svg width="150px" height="80px" viewBox="0 0 150 80">
+      <image xlink:href="../image/logo.svg" width="150px" height="150px"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Ronny Infante Herrera</h2>
+    <h3>
+      Fecha de nacimiento: 06/Julio/1977
+      <br>
+      Lugar de nacimiento: San José, Costa Rica
+    </h3>
+    <br>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../html/educacion.html">Educación</a></li>
+      <li><a href="../html/experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1994</td>
+            <td>Liceo Laboratorio</td>
+            <td>Moravia, San Jose</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>1995</td>
+            <td>Instituto Tecnologico de C.R.</td>
+            <td>Cartago, Cartago</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>1999</td>
+            <td>Academia Jimenez</td>
+            <td>Coronado, San Jose</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Next University</td>
+            <td>Belen, Heredia</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Agregar Estudios</h3>
+      <form action="">
+        <p>
+          <label for="anio"><strong>Año:</strong></label>
+        <select class="anio">
+          <option value="1">2018</option>
+          <option value="1">2017</option>
+          <option value="1">2016</option>
+          <option value="1">2015</option>
+          <option value="1">2014</option>
+          <option value="1">2013</option>
+          <option value="1">2012</option>
+          <option value="1">2011</option>
+          <option value="1">2010</option>
+          <option value="1">2009</option>
+          <option value="1">2008</option>
+          <option value="1">2007</option>
+          <option value="1">2006</option>
+          <option value="1">2005</option>
+          <option value="1">2004</option>
+          <option value="1">2003</option>
+          <option value="1">2002</option>
+          <option value="1">2001</option>
+          <option value="1">2000</option>
+        </select>
+        </p>
+        <p>
+          <label for="institucion"><strong>Institución: </strong></label>
+          <input type="text" name="institucion" required>
+        </p>
+        <p>
+          <label for="lugar"><strong>Lugar: </strong></label>
+          <textarea name="lugar" rows="2" cols="63"></textarea>
+        </p>
+        <p>
+          <label for="culmino">¿Culminó? </label>
+          <input type="radio" name="culmino"> Si
+          <input type="radio" name="culmino"> No
+        </p>
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+      </form>
+      <footer>
+        @ Derechos Reservados
+        <ul>
+          <li>Email: <a href="mailto:rinfante@martecintl.com?subject=CurriculumVitae">rinfante@martecintl.com</a></li>
+          <li>Teléfono: (506)6059-2474</li>
+          <li>Dirección: Apartado 933-2150. Moravia, San Jose. Costa Rica</li>
+        </ul>
+      </footer>
+  </body>
+</html>
